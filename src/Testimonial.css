@@ -1,0 +1,45 @@
+/* Testimonial.css */
+.testimonial-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+    background-image: linear-gradient(to right, #ffffff, #e0f7fa);
+  }
+  
+  .testimonial-quote {
+    font-size: larger;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .testimonial-author {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .author-image {
+    width: 40px;
+    height: 40px;
+    background: url('https://cdn.semrush.com/static/index/testimonials/Mario_Leon_Rojas@2x.6a8387fb699d.webp') no-repeat center center/cover; /* Replace with actual path to author's image */
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  
+  .author-details {
+    text-align: center;
+  }
+  
+  .author-title {
+    display: block;
+    font-size: smaller;
+    color: #808080;
+  }
+  
+  .testimonial-source {
+    margin-top: 10px;
+    font-size: x-small;
+  }
+  

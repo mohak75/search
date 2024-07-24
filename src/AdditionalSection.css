@@ -1,0 +1,67 @@
+.additional-section {
+  padding: 40px 20px;  /* Adjust padding for overall spacing */
+  display: flex;
+  justify-content: center;
+  background-color: #f8f8f8;
+}
+
+.ceo-message {
+  display: flex;
+  align-items: center;
+  max-width: 1200px;  /* Limit width for better centering on larger screens */
+  background-color: transparent;  /* Remove extra background color */
+  padding: 20px;
+}
+
+.ceo-image-container {
+  flex: 1;
+  text-align: center;
+}
+
+.ceo-image-container img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.message-content {
+  flex: 2;
+  padding: 20px;
+  text-align: left;
+}
+
+.message-content h2 {
+  margin-top: 0;
+  color: black;
+}
+
+.message-content ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.message-content ul li {
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.message-content ul li .tick {
+  color: #ff6f00;
+  margin-right: 10px;
+}
+
+.discover-button {
+  background-color: #ff6f00;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+.discover-button:hover {
+  background-color: #ff9f40;
+}

@@ -1,0 +1,77 @@
+/* TestimonialSection.css */
+.testimonial-section {
+    text-align: center;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    margin: 20px 0;
+  }
+  
+  .testimonial-section h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .testimonial-tabs {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .testimonial-tabs button {
+    background-color: #0073e6;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .testimonial-tabs button:hover {
+    background-color: #005bb5;
+  }
+  
+  .testimonial-navigation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .testimonial-navigation button {
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
+  .testimonial-navigation p {
+    margin: 0 10px;
+  }
+  
+  blockquote {
+    font-size: 18px;
+    font-style: italic;
+    margin: 20px 0;
+  }
+  
+  .reviewer-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .reviewer-info img {
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    margin-bottom: 10px;
+  }
+  
+  .reviewer-info p {
+    margin: 0;
+    font-size: 14px;
+    color: #555;
+  }
+  
