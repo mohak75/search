@@ -17,7 +17,7 @@
   cursor: pointer;
   font-size: 16px;
   transition: color 0.3s;
-  color: #000; /* Ensure inactive buttons have a visible text color */
+  color: #000; 
 }
 
 .feature-button.active {

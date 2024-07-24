@@ -23,7 +23,7 @@
   .author-image {
     width: 40px;
     height: 40px;
-    background: url('https://cdn.semrush.com/static/index/testimonials/Mario_Leon_Rojas@2x.6a8387fb699d.webp') no-repeat center center/cover; /* Replace with actual path to author's image */
+    background: url('https://cdn.semrush.com/static/index/testimonials/Mario_Leon_Rojas@2x.6a8387fb699d.webp') no-repeat center center/cover; 
     border-radius: 50%;
     margin-bottom: 10px;
   }

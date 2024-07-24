@@ -4,9 +4,9 @@ import axios from 'axios';
 import './App.css';
 import FeatureSection from './FeatureSection';
 import Testimonial from './Testimonial';
-import PromoSection from './PromoSection'; // Import the PromoSection component
-import NewSection from './NewSection'; // Import the NewSection component
-import AdditionalSection from './AdditionalSection'; // Import the new component
+import PromoSection from './PromoSection'; 
+import NewSection from './NewSection'; 
+import AdditionalSection from './AdditionalSection'; 
 import TestimonialSection from './TestimonialSection';
 import FooterSection from './FooterSection';
 
@@ -106,8 +106,8 @@ function App() {
 
       <FeatureSection />
       <Testimonial />
-      <PromoSection /> {/* Add the PromoSection component here */}
-      <NewSection /> {/* Add the new section here */}
+      <PromoSection /> 
+      <NewSection /> 
       <AdditionalSection />
       <TestimonialSection />
       <FooterSection />

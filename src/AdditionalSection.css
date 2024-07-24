@@ -1,5 +1,5 @@
 .additional-section {
-  padding: 40px 20px;  /* Adjust padding for overall spacing */
+  padding: 40px 20px;  
   display: flex;
   justify-content: center;
   background-color: #f8f8f8;
@@ -8,8 +8,8 @@
 .ceo-message {
   display: flex;
   align-items: center;
-  max-width: 1200px;  /* Limit width for better centering on larger screens */
-  background-color: transparent;  /* Remove extra background color */
+  max-width: 1200px;
+  background-color: transparent;
   padding: 20px;
 }
 
