@@ -1,0 +1,24 @@
+/* global.css */
+
+/* Import Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+html, body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #ffffff; 
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden; 
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+.error {
+  color: red;
+  font-weight: bold;
+}
